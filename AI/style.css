@@ -1,0 +1,24 @@
+body,
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+body,
+html {
+  height: 100%;
+}
+.bgimg {
+  background-color: #444654;
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.w3-bar-item {
+    display: inline-block;
+    width: 33.33%;
+    text-align: center;
+  }
+  
+  .light-mode {
+    background-color: #ffffff;
+    color: #444654;
+  }

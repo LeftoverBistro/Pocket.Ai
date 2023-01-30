@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pocket.Ai</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link rel="Shortcut Icon" type="image/png" href="images/Logo.png" />
+    <style>
+      body,
+      h1 {
+        font-family: "Raleway", sans-serif;
+      }
+      body,
+      html {
+        height: 100%;
+      }
+      .bgimg {
+        background-color: #444654;
+        min-height: 100%;
+        opacity: 10;
+        background-position: center;
+        background-size: cover;
+      }
+      .w3-bar-item {
+        text-align: center;
+        width: 33.33%;
+      }
+      .mode-toggle {
+        float: right;
+        margin-top: 15px;
+        margin-right: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="w3-bar w3-xlarge w3-black w3-hover-opacity-off w3-padding-large"
+      id="myNavbar"
+    >
+      <a href="#" class="w3-bar-item w3-button">
+        <img
+          src="images/Logo.png"
+          alt="Logo"
+          style="width: 40px; height: 40px"
+        />
+      </a>
+      <a href="#" class="w3-bar-item w3-button">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button">OUR TEAM</a>
+  </div>
+    </div>
+    <div class="w3-display-container w3-animate-opacity">
+      <img
+        src="images/space-hero.jpg"
+        alt="bg img"
+        style="width: 100%; min-height: 750px; max-height: 800px"
+      />
+      <div style="padding-bottom: 30%" class="w3-display-middle">
+        <h1 class="w3-jumbo w3-text-white">
+          <b>Welcome.</b>
+        </h1>
+        <hr class="w3-border-grey" style="margin: auto; width: 40%" />
+        <p class="w3-large w3-text-white w3-center">
+          <b>Check out our latest below.</b>
+        </p>
+      </div>
+      <div
+        class="w3-container w3-text-white w3-display-bottommiddle w3-margin-bottom"
+      ></div>
+      <div class="w3-padding-64 w3-white">
+        <div class="w3-row-padding">
+          <div class="w3-col l8 m6">
+            <h1 class="w3-xxlarge"><b>What Is Pocket.Ai?</b></h1>
+            <p>
+              Our AI chat app offers a unique and intuitive experience for users
+              seeking seamless, efficient, and personalized communication. Our
+              app utilizes cutting-edge technology to understand and respond to
+              your needs in real-time, providing fast and accurate answers to
+              your questions. Say goodbye to endless scrolling and waiting for
+              replies, and say hello to effortless, high-quality communication
+              with our AI chat app.
+            </p>
+            <button
+              class="w3-button w3-blue w3-padding-large w3-section w3-hide-small"
+              onclick="document.getElementById('download').style.display='block'"
+            >
+              <i class="fa fa-download"></i> Sign Up For Beta Release
+            </button>
+            <p>
+              Available for:
+              <a
+                class="w3-button w3-large w3-transparent"
+                href="javascript:void(0)"
+                title="Android"
+                ><img src="images/android-fill.png" alt="Android logo"
+              /></a>
+              <a
+                class="w3-button w3-large w3-transparent"
+                href="javascript:void(0)"
+                title="AppStore"
+                ><img src="images/app-store-fill.png" alt="Facebook logo"
+              /></a>
+              <a
+                class="w3-button w3-large w3-transparent"
+                href="javascript:void(0)"
+                title="Windows"
+                ><img src="images/windows-fill.png" alt="Windows logo"
+              /></a>
+            </p>
+          </div>
+          <div class="w3-col l4 m6">
+            <img
+              src="images/Phone.png"
+              class="w3-image w3-right w3-hide-small"
+              width="335"
+              height="471"
+            />
+            <div class="w3-center w3-hide-large w3-hide-medium">
+              <button
+                class="w3-button w3-block w3-padding-large"
+                onclick="document.getElementById('download').style.display='block'"
+              >
+                <i class="fa fa-download"></i> Sign Up For Beta
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div id="download" class="w3-modal w3-animate-opacity">
+      <div class="w3-modal-content" style="padding: 32px">
+        <div class="w3-container w3-white">
+          <div style="text-align: right">
+            <button
+              onclick="document.getElementById('download').style.display='none'"
+              class="w3-button w3-jumbo w3-transparent"
+              style="outline: none"
+            >
+              &times;
+            </button>
+          </div>
+          <h1><strong>Get Notified When Released.</strong></h1>
+          <p>
+            Be the First to Download the app in AppStore, Google Play or
+            Microsoft Store - When Beta is Public!
+          </p>
+          <i class="fa fa-android w3-large"></i>
+          <i class="fa fa-apple w3-large"></i>
+          <i class="fa fa-windows w3-large"></i>
+          <p>
+            <input
+              class="w3-input w3-border"
+              type="text"
+              placeholder="Enter E-mail"
+            />
+          </p>
+          <button
+            type="button"
+            class="w3-button w3-block w3-padding-large w3-blue w3-margin-bottom"
+            onclick="document.getElementById('download').style.display='none'"
+          >
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+      <div class="w3-display-topleft w3-padding-large w3-xlarge"></div>
+      <div class="w3-display-middle">
+        <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
+        <hr class="w3-border-grey" style="margin: auto; width: 40%" />
+        <p class="w3-large w3-center">
+          Powerful Artificial Intelligence - At Your Fingertips.
+        </p>
+      </div>
+      <a href="https://discord.gg/udYf8cWKd9"></a>
+      <button
+        onclick="document.getElementById('id01').style.display='block'"
+        class="w3-button w3-xlarge w3-theme w3-hover-purple w3-display-bottommiddle w3-padding-large"
+        title="Discord"
+      >
+        JOIN OUR COMMUNITY
+      </button>
+    </div>
+    <div class="w3-padding-64 w3-light-white">
+      <div class="w3-row-padding">
+        <div class="w3-col l4 m6">
+          <img
+            class="w3-image w3-round-large w3-hide-small"
+            style="margin: 10%;"
+            src="images/Pocket.Ai (3).png"
+            alt="App"
+            width="335"
+            height="471"
+          />
+        </div>
+        <div class="w3-col l8 m6 w3-padding-64 ">
+          <h1 class="w3-jumbo w3-text-blue "><b>Start building with
+            a simple Download.</b></h1>
+          <h1 class="w3-text-black"><b>Perform a wide variety
+            of natural language
+            tasks with Pocket.Ai</b></h1>
+          <p>
+            <span class="w3-xlarge">Pocket.Ai</span> can be applied to virtually any task that involves understanding or generating natural language or code. We offer a spectrum of models with different levels of power suitable for different tasks, as well as the ability to fine-tune your own custom models. These models can be used for everything from content generation to semantic search and classification.
+          </p>
+        </div>
+      </div>
+      <div class="w3-row-padding" id="team">
+        <div class="w3-center w3-padding-64">
+          <span class="w3-xlarge w3-bottombar w3-border-blue w3-padding-16">MEET THE TEAM</span>
+        </div>
+    
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-card-4">
+            <img src="images/Mansa.gif" alt="John" style="width:100%">
+            <div class="w3-container">
+              <h3>Mansa</h3>
+              <p class="w3-opacity">CEO & Founder</p>
+              <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-card-4">
+            <img src="images/LegaDax.png" alt="Mike" style="width:100%">
+            <div class="w3-container">
+              <h3>LegaDax</h3>
+              <p class="w3-opacity">Lead Developer</p>
+              <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-card-4">
+            <img src="images/bistro.png" alt="Jane" style="width:100%">
+            <div class="w3-container">
+              <h3>Bistro (Bee-stro)</h3>
+              <p class="w3-opacity">Frontend/Backend Developer</p>
+              <p>"Im From Columbus Ohio. Dad of 2 Beautiful Kids - I love Video Games and Coding!"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer class="w3-container w3-black w3-theme-d1 w3-center">
+    <h4>Follow Us</h4>
+    <a
+      class="w3-button w3-large w3-blue"
+      href="javascript:void(0)"
+      title="Facebook"
+      ><img src="images/facebook-circle-fill.png" alt="Facebook logo"
+    /></a>
+    <a
+      class="w3-button w3-large w3-blue"
+      href="javascript:void(0)"
+      title="Twitter"
+      ><img src="images/twitter-line.png" alt="Twitter logo"
+    /></a>
+    <a
+      class="w3-button w3-large w3-blue"
+      href="javascript:void(0)"
+      title="Github"
+      ><img src="images/github-fill.png" alt="Github logo"
+    /></a>
+    <a
+      class="w3-button w3-large w3-blue"
+      href="javascript:void(0)"
+      title="Google +"
+      ><img src="images/instagram-line.png" alt="Instagram logo"
+    /></a>
+    <a
+      class="w3-button w3-large w3-blue w3-hide-small"
+      href="javascript:void(0)"
+      title="Linkedin"
+      ><img src="images/linkedin-box-fill.png" alt="Linkedin logo"
+    /></a>
+    <p>
+      Powered by
+      <a href="https://discord.gg/udYf8cWKd9" target="_blank"
+        >Society Of Imagination</a
+      >
+    </p>
+
+    <div
+      style="position: relative; bottom: 10px; z-index: 1"
+      class="w3-tooltip w3-right"
+    >
+      <span class="w3-text w3-padding w3-blue w3-hide-small">Go To Top</span>
+      <a class="w3-button w3-theme" href="#"
+        ><span class="w3-xlarge"> <i class="fa fa-chevron-circle-up"></i></span
+        ><img src="images/arrow-up-circle-fill (2).png" alt="logo"
+      /></a>
+    </div>
+  </footer>
+</html>
